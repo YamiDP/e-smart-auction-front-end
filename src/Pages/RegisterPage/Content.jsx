@@ -6,7 +6,7 @@ import moment from 'moment'
 import { useNavigate  } from 'react-router-dom';
 
 export const Content = () => {
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const [seller, setSeller] = useState(0);
   const [province, setProvince] = useState([]);
   const [district, setDistrict] = useState([]);

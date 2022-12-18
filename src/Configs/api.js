@@ -1,5 +1,6 @@
 // const domain = "https://e-smart-auction-api-server.herokuapp.com";
-const domain = "http://localhost:8000"
+// const domain = "http://localhost:8000"
+const domain = "https://e-smart-auction-server.herokuapp.com"
 const arr = [
   ["menu", "menu/get-all-parent-categories"],
   ["homeLastestAuction", "home/get-lastest-auction"],

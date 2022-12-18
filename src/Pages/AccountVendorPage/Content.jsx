@@ -5,7 +5,7 @@ import moment from 'moment'
 import { useNavigate    } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import { DashVendorMenu } from "../../Elements/DashVendorMenu"
-const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
 
 export const Content = () => {
     let history = useNavigate ();

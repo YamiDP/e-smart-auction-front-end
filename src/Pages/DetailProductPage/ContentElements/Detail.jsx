@@ -11,7 +11,7 @@ export const Detail = ({productDetail, allColor, allCate}) => {
   const now = moment()
   let history = useNavigate ();
   const token_access =  localStorage.getItem("access_token")
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const [stepBid, setStepBid] = useState(0)
   const [stepBid1, setStepBid1] = useState(0)
   const [productsInCart, setProducts] =

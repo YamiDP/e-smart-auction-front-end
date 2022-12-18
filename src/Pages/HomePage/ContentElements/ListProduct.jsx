@@ -10,7 +10,7 @@ import {
   useLocation
 } from "react-router-dom";
 export const ListProduct = () => {
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const urlOrigin = window.location.origin.toString();
   const [parentCategory, setDataParentCategory] = useState([]);
   const [added, setAdded] = useState();

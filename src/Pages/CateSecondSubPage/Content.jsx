@@ -15,7 +15,7 @@ import {
 export const Content = () => {
   const url = window.location.pathname
   const param = url.split('product-category-second-sub-category/')[1]
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const urlOrigin = window.location.origin.toString();
   const [product, setProduct] = useState([]);
   const [category, setCategory] = useState([]);

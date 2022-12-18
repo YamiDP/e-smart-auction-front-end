@@ -6,7 +6,7 @@ import moment from 'moment'
 import {ShoppingCart} from "../Component/ShoppingCart"
 
 export const Content = () => {
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const now = moment()
   const [parentCategory, setDataParentCategory] = useState([]);
   useEffect(() => {

@@ -7,7 +7,7 @@ import { useNavigate    } from 'react-router-dom';
 import { DashVendorMenu } from "../../Elements/DashVendorMenu"
 
 export const Content = () => {
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   const token_access =  localStorage.getItem("access_token")
   const user_id =  localStorage.getItem("user_id")
   const [sellerOrder, setSellerOrder] = useState([]);

@@ -7,7 +7,7 @@ import { useNavigate    } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
-const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
 
 export const Content = () => {
   let history = useNavigate ();

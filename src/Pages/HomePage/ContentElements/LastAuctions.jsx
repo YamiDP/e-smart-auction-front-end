@@ -5,7 +5,7 @@ import moment from 'moment'
 import { CountDown } from "../../CountDown"
 import {ShoppingCart} from "../../Component/ShoppingCart"
 
-const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
 const urlOrigin = window.location.origin.toString();
 const now = moment()
 export const LastAuction = () => {

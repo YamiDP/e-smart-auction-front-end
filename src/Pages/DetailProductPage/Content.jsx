@@ -8,7 +8,7 @@ import {API} from "../../Configs/api.js"
 import moment from 'moment'
 import { CountDown } from "../CountDown"
 
-const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
 
 export const Content = () => {
     const [productDetail, setProductDetail] = useState([]);

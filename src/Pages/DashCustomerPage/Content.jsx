@@ -6,7 +6,7 @@ import { DashCustomerMenu } from "../../Elements/DashCustomerMenu"
 import { useNavigate    } from 'react-router-dom';
 
 export const Content = () => {
-  const BaseUrl ='https://e-smart-auction-api-server.herokuapp.com/'
+  const BaseUrl ='https://e-smart-auction-server.herokuapp.com/'
   let history = useNavigate ();
   const token = localStorage.getItem("access_token")
   const user_id = localStorage.getItem("user_id")
