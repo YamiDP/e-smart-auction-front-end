@@ -1,0 +1,108 @@
+/* About */
+.vc_custom_1569503810162{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 130px !important;padding-bottom: 95px !important;background-image: url(https://ibid.modeltheme.com/wp-content/uploads/2019/09/about-business-pic.jpg?id=5570) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}
+.vc_custom_1568018233528{padding-top: 20px !important;padding-right: 48px !important;padding-bottom: 48px !important;padding-left: 50px !important;background-color: #ffffff !important;}
+/* Contact */
+.vc_custom_1566807418506{margin-top: 0px !important;margin-right: 5px !important;margin-bottom: 0px !important;padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(https://ibid.modeltheme.com/wp-content/uploads/2019/08/bg_contact.jpg?id=5096) !important;}
+.vc_custom_1567589730737{background-color: #ffffff !important;}
+.vc_custom_1566384223625{margin-left: -15px !important;}
+.vc_custom_1568008600350{margin-bottom: 0px !important;margin-left: 0px !important;}
+.vc_custom_1567588604025{padding-top: 80px !important;padding-right: 50px !important;padding-bottom: 20px !important;padding-left: 50px !important;background-color: #2695ff !important;}
+.slider {
+    position: relative;
+    width: 200px;
+  }
+  
+  .slider__track,
+  .slider__range,
+  .slider__left-value,
+  .slider__right-value {
+    position: absolute;
+  }
+  
+  .slider__track,
+  .slider__range {
+    border-radius: 3px;
+    height: 5px;
+  }
+  
+  .slider__track {
+    background-color: #ced4da;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .slider__range {
+    background-color: #9fe5e1;
+    z-index: 2;
+  }
+  
+  .slider__left-value,
+  .slider__right-value {
+    color: #dee2e6;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
+  .slider__left-value {
+    left: 6px;
+  }
+  
+  .slider__right-value {
+    right: -4px;
+  }
+  
+  /* Removing the default appearance */
+  .thumb,
+  .thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .thumb {
+    pointer-events: none;
+    position: absolute;
+    height: 0;
+    width: 200px;
+    outline: none;
+  }
+  
+  .thumb--zindex-3 {
+    z-index: 3;
+  }
+  
+  .thumb--zindex-4 {
+    z-index: 4;
+  }
+  
+  .thumb--zindex-5 {
+    z-index: 5;
+  }
+  
+  /* For Chrome browsers */
+  .thumb::-webkit-slider-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }
+  
+  /* For Firefox browsers */
+  .thumb::-moz-range-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }
+  
